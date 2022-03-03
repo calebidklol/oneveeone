@@ -113,5 +113,30 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-remote-config.js"></script>
 
+	  
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA4ICWbGcHh-s4OAPAE5zJt1PoZFzr_AxA",
+    authDomain: "v1pro-1c992.firebaseapp.com",
+    projectId: "v1pro-1c992",
+    storageBucket: "v1pro-1c992.appspot.com",
+    messagingSenderId: "540459835007",
+    appId: "1:540459835007:web:b5ef11aef3dbc388eae94a",
+    measurementId: "G-D9Q02J6D4K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>  
+	  
   </body>
 </html>
